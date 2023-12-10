@@ -13,7 +13,7 @@ struct ContentView: View {
             Color(red: 0.09, green: 0.63, blue: 0.52)
                 .edgesIgnoringSafeArea(.all)
             Text("John Smith")
-                .font(.title)
+                .font(Font.custom("Pacifico-Regular", size: 40))
                 .bold()
                 .foregroundStyle(.white)
         }

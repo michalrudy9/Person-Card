@@ -11,6 +11,7 @@
 		74AB1F472B25EE85007880A3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AB1F462B25EE85007880A3 /* ContentView.swift */; };
 		74AB1F492B25EE87007880A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74AB1F482B25EE87007880A3 /* Assets.xcassets */; };
 		74AB1F4C2B25EE87007880A3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74AB1F4B2B25EE87007880A3 /* Preview Assets.xcassets */; };
+		74AB1F542B25F360007880A3 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 74AB1F532B25F360007880A3 /* Pacifico-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,8 @@
 		74AB1F462B25EE85007880A3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		74AB1F482B25EE87007880A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		74AB1F4B2B25EE87007880A3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		74AB1F532B25F360007880A3 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		74AB1F552B25F530007880A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +54,8 @@
 		74AB1F432B25EE85007880A3 /* PersonCard */ = {
 			isa = PBXGroup;
 			children = (
+				74AB1F552B25F530007880A3 /* Info.plist */,
+				74AB1F522B25F33E007880A3 /* Fonts */,
 				74AB1F442B25EE85007880A3 /* PersonCardApp.swift */,
 				74AB1F462B25EE85007880A3 /* ContentView.swift */,
 				74AB1F482B25EE87007880A3 /* Assets.xcassets */,
@@ -65,6 +70,14 @@
 				74AB1F4B2B25EE87007880A3 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		74AB1F522B25F33E007880A3 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				74AB1F532B25F360007880A3 /* Pacifico-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +138,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74AB1F542B25F360007880A3 /* Pacifico-Regular.ttf in Resources */,
 				74AB1F4C2B25EE87007880A3 /* Preview Assets.xcassets in Resources */,
 				74AB1F492B25EE87007880A3 /* Assets.xcassets in Resources */,
 			);
@@ -275,6 +289,7 @@
 				DEVELOPMENT_TEAM = CUDRLWFCMN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PersonCard/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +319,7 @@
 				DEVELOPMENT_TEAM = CUDRLWFCMN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PersonCard/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
